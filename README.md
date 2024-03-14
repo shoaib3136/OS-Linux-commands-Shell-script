@@ -42,23 +42,33 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/0119401d-8e53-42c4-ab54-ce749dc6a03e)
+
+
 
 
 
 cat < file2
 ## OUTPUT
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/9d6b43a7-9146-4ad3-bd12-6124400fb4d7)
+
 
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/ec7146a1-7dcf-4519-b2bd-bb074874a9f6)
+
  
 comm file1 file2
  ## OUTPUT
+ ![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/2b388c18-8716-471f-86a5-104b81593a8b)
+
 
  
 diff file1 file2
 ## OUTPUT
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/bdc3e442-d591-40aa-b92a-121299adbb65)
 
 
 #Filters
@@ -68,97 +78,135 @@ diff file1 file2
 cat > file11
 
 Hello world
+
 This is my world
+
 ^d
 
 cat > file22
 
 1001 | Ram | 10000 | HR
+
 1002 | tom |  5000 | Admin
+
 1003 | Joe |  7000 | Developer
+
 ^d
 
 
 
 cut -c1-3 file11
 ## OUTPUT
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/141e89e4-c3d8-4296-b12d-a2e6bb80f2df)
+
 
 
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/b1f5d32d-f1a3-4a66-9c0e-10d02548f316)
 
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
-
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/336fe232-b5b0-424a-88fe-5ca75d10039f)
 
 cat < newfile 
 
 Hello world
+
 hello world
+
 ^d
 `
 cat > newfile 
+
 Hello world
+
 hello world
+
+^d
  
 grep Hello newfile 
 ## OUTPUT
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/fc26c416-54b1-4b9c-b839-1e6a77c2ff12)
+
 
 
 
 grep hello newfile 
 ## OUTPUT
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/3cfe2166-0ee0-46f4-9b7c-44512aeae4cd)
+
 
 
 
 
 grep -v hello newfile 
 ## OUTPUT
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/d6dd2db3-b402-47b5-84f7-35e3b2038e37)
+
 
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/eb5b87a0-bb58-4854-a95f-1063a74d1320)
+
 
 
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/3c2aa26a-270d-42cf-9f04-ce10dc341942)
+
 
 
 
 
 grep -R ubuntu /etc
 ## OUTPUT
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/04c00dca-5051-48a8-9333-c20a7bfd9328)
+
 
 
 
 grep -w -n world newfile   
 ## OUTPUT
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/a08e3266-9005-4680-b75a-cb7687d0b869)
+
 
 
 cat < newfile 
 
 Hello world
+
 hello world
+
 Linux is world number 1
+
 Unix is predecessor
+
 Linux is best in this World
+
 ^d
 
 
 cat > newfile
 
 Hello world
+
 hello world
+
 Linux is world number 1
+
 Unix is predecessor
+
 Linux is best in this World
+
 ^d
  
 egrep -w 'Hello|hello' newfile 
@@ -166,8 +214,12 @@ egrep -w 'Hello|hello' newfile
 
 
 
+
+
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
+
+
 
 
 
