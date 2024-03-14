@@ -42,7 +42,7 @@ Testing the commands for the desired output.
 
 ![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/74b73335-9251-438a-9012-33c5c5287a91)
 
-#### 6.) clear:
+### 6.) clear:
 
 ![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/3c88f15e-681e-4844-815f-5aa62630f35e)
 ![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/ef42473c-e3b0-4040-93b2-583f64427c0a)
@@ -76,11 +76,11 @@ Testing the commands for the desired output.
 
 ![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/e8bc0880-cc63-41e0-ad60-ff39675dbf60)
 
- ### 14.) uname –a:
+### 14.) uname –a:
 
  ![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/8a47df0a-f064-48ef-b57e-4d8a0bbfb638)
 
- ### 15.) cmp:
+### 15.) cmp:
 
  ![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/1955935e-6d13-4629-9d88-e2f3ff182a8c)
  
