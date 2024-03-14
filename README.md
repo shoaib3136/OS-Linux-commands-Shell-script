@@ -25,18 +25,27 @@ Testing the commands for the desired output.
 cat > file1
 
 chanchal singhvi
+
 c.k. shukla
+
 s.n. dasgupta
+
 sumit chakrobarty
+
 ^d
 
 cat > file2
 
 anil aggarwal
+
 barun sengupta
+
 c.k. shukla
+
 lalit chowdury
+
 s.n. dasgupta
+
 ^d
 
 ### Display the content of the files
@@ -82,6 +91,7 @@ Hello world
 This is my world
 
 ^d
+
 
 cat > file22
 
@@ -425,6 +435,7 @@ sed -n '2,4{s/$/*/;p}' file23
 
 
 #Sorting File content
+
 cat > file21
 
 1001 | Ram | 10000 | HR
@@ -435,6 +446,8 @@ cat > file21
  
 sort file21
 ## OUTPUT
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/924b5e4f-b6d9-4ce3-894b-2b1edbf587c0)
+
 
 
 cat > file22
@@ -448,6 +461,8 @@ cat > file22
  
 uniq file22
 ## OUTPUT
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/94e1fa19-3646-4f72-97c8-eff4a0e11279)
+
 
 
 
@@ -455,33 +470,47 @@ uniq file22
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
+ ![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/b286bcd8-f51d-4f2b-a6ae-c06dd89621f6)
+
 
 cat < urllist.txt
 
 www. yahoo. com
+
 www. google. com
+
 www. mrcet.... com
+
 ^d
  
 cat > urllist.txt
 
 www. yahoo. com
+
 www. google. com
+
 www. mrcet.... com
+
  
 cat urllist.txt | tr -d ' '
  ## OUTPUT
+ ![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/de7ce8af-1855-4dec-99f3-734859a20a00)
+
 
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/255942df-5e83-4d32-b128-ee2fe540cebe)
+
 
 
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/8c62851c-a964-43f2-86cc-74216fecdaf3)
+
 
 
 mkdir backupdir
