@@ -964,14 +964,7 @@ $ chmod 755 forin2.sh
 $ ./forin2.sh 
  
 cat forin3.sh 
-```bash
-\#!/bin/bash
-\# another example of how not to use the for command
-for test in I don\'t know if "this'll" work
-do
-echo "word:$test"
-done
-```
+```b```
 $ ./forin3.sh 
 ## Output
 
@@ -988,6 +981,8 @@ done
 $ chmod 755 forin1.sh
 
 ## OUTPUT
+
+
 
 cat forinfile.sh 
 ```bash
