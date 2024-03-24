@@ -439,10 +439,15 @@ sed -n '2,4{s/$/*/;p}' file23
 cat > file21
 
 1001 | Ram | 10000 | HR
+
 1002 | tom |  5000 | Admin
+
 1003 | Joe |  7000 | Developer
+
 1005 | Sam |  5000 | HR
+
 1004 | Sit |  7000 | Dev
+
  
 sort file21
 ## OUTPUT
@@ -453,10 +458,15 @@ sort file21
 cat > file22
 
 1001 | Ram | 10000 | HR
+
 1001 | Ram | 10000 | HR
+
 1002 | tom |  5000 | Admin
+
 1003 | Joe |  7000 | Developer
+
 1005 | Sam |  5000 | HR
+
 1004 | Sit |  7000 | Dev
  
 uniq file22
