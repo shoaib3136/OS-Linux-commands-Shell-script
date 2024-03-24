@@ -574,23 +574,35 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/7a72e337-caed-4739-9e28-509e01204e2f)
+
 
  
 ls file1
 ## OUTPUT
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/55f8a5e3-ee68-4379-b4cb-89f0b70cdad7)
+
 
 echo $?
 ## OUTPUT 
+
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/6b25410f-3cc8-46d0-a6fc-2470ba999ee7)
+
+
 ./one
 bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT 
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/56d4b458-b0e4-482c-8b94-477bfc4909c1)
+
  
 abcd
  
 echo $?
  ## OUTPUT
+ ![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/78d318cc-162d-467a-8f8e-6faaabfafc7f)
+
 
 
  
@@ -622,7 +634,9 @@ else
 echo "$val1 is less than $val2"
 fi
 ```
-##OUTPUT
+## OUTPUT
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/2807a7c0-4f97-45e3-8247-881b1819e93a)
+
 
 
 
@@ -630,6 +644,8 @@ chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/b01bbe77-a8bc-4ddc-9ef4-e34016b7ce38)
+
 
 
 # check file ownership
@@ -657,6 +673,8 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/d8d7e35f-6048-4747-9e2a-17ca99eb6e20)
+
 
 # check if with file location
 cat>ifnested.sh 
@@ -703,6 +721,8 @@ fi
 
 ./ifnested.sh 
 ## OUTPUT
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/2f3299e4-60bb-4a32-a4c8-cd41aeb20ffd)
+
 
 
 
