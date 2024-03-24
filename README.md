@@ -1,4 +1,4 @@
-# OS-Linux-commands-Shell-scripting
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/9c78541d-42e1-4b1e-b346-c2c4f8e07c5c)# OS-Linux-commands-Shell-scripting
 Operating systems Lab exercise
 # Linux commands-Shell scripting
 Linux commands-Shell scripting
@@ -766,7 +766,9 @@ fi
 $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
-##OUTPUT
+## OUTPUT
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/6b71a0a1-b635-482c-a722-edf68c46ab6e)
+
 
 # check if a file
 cat > ifnested.sh 
@@ -815,7 +817,9 @@ fi
 $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
-##OUTPUT
+## OUTPUT
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/ffd6724c-de7e-40da-b2e4-3938fa08ef90)
+
 
 # looking for a possible value using elif
 cat elifcheck.sh 
@@ -844,6 +848,8 @@ $ chmod 755 elifcheck.sh
  
 $ ./elifcheck.sh 
 ## OUTPUT
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/9a93f4b6-6f73-486d-9ab6-ffb63e472ae4)
+
 
 
 # testing compound comparisons
@@ -860,6 +866,8 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/6b1f7621-a109-4248-b591-7a2ab00366b3)
+
 
 # using the case command
 cat >casecheck.sh 
@@ -879,6 +887,10 @@ esac
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
+## Output
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/8f023608-005b-487a-b0a6-6097751bb34d)
+
+
  
 cat > whiletest
 ```bash
@@ -894,6 +906,9 @@ done
 $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
+## Output
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/c306fa58-6001-4716-98f3-9d3bf83e8660)
+
  
  
 cat untiltest.sh 
@@ -958,6 +973,8 @@ echo "word:$test"
 done
 ```
 $ ./forin3.sh 
+## Output
+
  
 cat forin1.sh 
 ```bash
@@ -971,6 +988,7 @@ done
 $ chmod 755 forin1.sh
 
 ## OUTPUT
+
 cat forinfile.sh 
 ```bash
 #!/bin/bash
