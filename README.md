@@ -962,11 +962,23 @@ done
 $ chmod 755 forin2.sh
  
 $ ./forin2.sh 
+## Output:
+cl![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/20039602-ccec-4711-9c2d-cc8da234e0b0)
+
  
 cat forin3.sh 
-```b```
+```
+\#!/bin/bash
+\# another example of how not to use the for command
+for test in I don\'t know if "this'll" work
+do
+echo "word:$test"
+done
+```
 $ ./forin3.sh 
 ## Output
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/af7448a0-e65a-4fe1-9f3e-ae8217525c20)
+
 
  
 cat forin1.sh 
@@ -981,6 +993,7 @@ done
 $ chmod 755 forin1.sh
 
 ## OUTPUT
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/2bb0af25-e1e4-4305-acec-9070685d1a00)
 
 
 
@@ -1005,6 +1018,8 @@ Bhadrachalam
 Khammam
 
 ## OUTPUT
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/5a16302c-3015-4eaf-b40f-95eaa2cfaf6d)
+
 
 
 cat forctype.sh 
@@ -1019,6 +1034,8 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/3dce7b3b-7f9d-4baf-bd8c-69a834677f23)
+
 
 cat forctype1.sh 
 ```bash
@@ -1032,6 +1049,8 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/68dace17-6331-4cbf-ab17-899d77d8ff35)
+
 
 cat fornested1.sh 
 ```bash
@@ -1050,6 +1069,8 @@ $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
  ## OUTPUT
+ ![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/53fc8213-be74-475b-8eb6-a3c13b67b2b6)
+
 
  
 cat forbreak.sh 
@@ -1067,6 +1088,8 @@ done
 echo "The for loop is completed“
 ```
 ## OUTPUT
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/082d2b62-cdb6-41da-a6d6-e5037411700b)
+
 
 $ chmod 755 forbreak.sh
  
@@ -1092,6 +1115,8 @@ $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 ## OUTPUT
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/33c83ae9-444f-48e1-bbd7-1f8e25b187c4)
+
  
 cat exread.sh 
 ```bash
@@ -1218,6 +1243,8 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/161dcbae-c68f-4e78-bd30-db4f4022bd8a)
+
  
 cat > palindrome.sh
 ```bash
@@ -1245,6 +1272,8 @@ else
 fi
 ```
 ## OUTPUT 
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/347b868d-86e8-4967-932b-e9dd7f152af2)
+
 
 
 
