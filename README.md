@@ -1131,6 +1131,8 @@ $ chmod 755 exread.sh
  
 $ ./exread.sh 
 ## OUTPUT
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/85655ba5-fd37-4050-9655-9e2581647c22)
+
 
 
  cat exread1.sh
@@ -1142,11 +1144,13 @@ echo "Hello $name, welcome to my program. “
 ``` 
 $ chmod 755 exread1.sh 
 
-## OUTPUT
-
-
-
 $ ./exread1.sh 
+
+## OUTPUT
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/c6985393-a346-43ba-b749-4e513e15457b)
+
+
+
  
 cat funcex.sh
 ```bash
@@ -1163,11 +1167,16 @@ else
 echo "Usage: badtest1 a b"
 fi
 ```
-## OUTPUT
- ./funcex.sh 
 
+ ./funcex.sh 
+## OUTPUT
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/60fbe45b-df80-4975-afb4-4707e0ff758e)
  
  ./funcex.sh 1 2
+ ## OUTPUT
+ ![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/0a9384e4-7b20-4491-ba85-0e78ac42eabd)
+
+ 
 
  
 cat argshift.sh
@@ -1180,8 +1189,12 @@ done
 ```
 $ chmod 777 argshift.sh
 
-## OUTPUT
 $ ./argshift.sh 1 2 3
+
+## OUTPUT
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/591399c0-4ca7-46c4-b1da-0d5480a26f93)
+
+
  
  cat argshift1.sh
 ```bash
@@ -1196,9 +1209,14 @@ for (( i=0;i<$ELEMENTS;i++)); do
     echo ${args[${i}]} 
 done
 ```
-$ chmod 777 argshift.sh
+$ chmod 777 argshift1.sh
+
+$ ./argshift1.sh 1 2 3
+
 ## OUTPUT
-$ ./argshift.sh 1 2 3
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/7a228ebf-325f-4908-a6c0-181a22d72ca8)
+
+
  
 cat argshift.sh
 ```bash
@@ -1210,8 +1228,12 @@ while (( "$#" )); do
 done
 set +x
 ```
-## OUTPUT
  ./argshift.sh 1 2 3
+ 
+## OUTPUT
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/bebbc456-66dd-4685-9722-92b03b56b478)
+
+
  
  
 cat > nc.awk
@@ -1243,7 +1265,8 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
-![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/161dcbae-c68f-4e78-bd30-db4f4022bd8a)
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/58a676e2-9c98-4b6a-862a-7e3268689ef8)
+
 
  
 cat > palindrome.sh
